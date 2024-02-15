@@ -1,0 +1,97 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 3px;
+  display: flex;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.res-container {
+  margin-left: 70px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-container > a:link {
+  text-decoration: none;
+}
+
+.res-container a {
+  color: inherit;
+}
+
+.search {
+  padding: 10px;
+}
+
+.filter-btn, .Search {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.filter-btn {
+  margin-left: 5px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+
+.login {
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 0 20px;
+}
+
+.filter {
+  display: flex;
+}
+
+.user-card {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=index.75a90472.css.map */
